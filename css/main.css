@@ -337,6 +337,7 @@ a {
   width: 375px;
   margin: auto;
   padding: 80px 16px;
+  background-position: top;
   background-repeat: no-repeat;
   background: rgba(1, 1, 1, 1);
 
@@ -395,7 +396,8 @@ a {
 @media screen and (min-width: 1117px) {
   .q-w-why-container {
     width: 1440px;
-    padding: 160px;
+    padding: 160px 160px 0;
+    height: 846px;
     background-repeat: no-repeat;
     background-image: url("/img/Our\ Products\ \(1\).png");
   }
